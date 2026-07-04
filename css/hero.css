@@ -1,5 +1,4 @@
 .hero {
-  text-align: center;
   background-color: #2e2f42;
 }
 .page-title {
@@ -25,9 +24,9 @@
   background-color: #404bbf;
 }
 
-.hero-conteiner {
-}
-
 .hero-background {
   padding: 188px 141px;
+  min-width: 1440px;
+  height: 600px;
+  text-align: center;
 }

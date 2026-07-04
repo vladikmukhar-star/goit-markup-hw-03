@@ -16,14 +16,15 @@
 .logo-footer {
   color: #f4f4fd;
   font-family: Raleway;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .page-footer {
   background-color: #2e2f42;
-  color: #2e2f42;
   color: #f4f4fd;
-  width: 1440px;
-  height: 312px;
+  min-width: 1440px;
+  padding: 100px;
 }
 
 .footer-description {
@@ -32,13 +33,23 @@
   color: #f4f4fd;
 }
 
-.foter-container {
-  padding: 100px 0px;
+.footer-container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.text-foter {
+.foter-text {
+  display: block;
+  text-align: left;
   padding: 0px 15px;
   width: 1158px;
   height: 112px;
-  max-width: 1159px;
+  max-width: 1158px;
+}
+
+.footer-left {
+  width: 264px;
+  height: 112px;
+  max-width: 264px;
 }
