@@ -21,8 +21,7 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-
-  padding: 120px 0px;
+  margin-bottom: 72px;
 }
 
 .name {
@@ -32,7 +31,7 @@
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  padding: 32px 16px 8px;
+  margin-bottom: 8px;
 }
 
 .profession-team {
@@ -47,12 +46,10 @@
 .team-color {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
-  display: block;
 }
 
 .container-team {
   margin: 0;
-  padding: 120px 0px;
 }
 
 .box-container {
@@ -66,4 +63,11 @@
   align-self: center;
   gap: 24px;
   padding: 0px 15px;
+}
+section {
+  padding: 120px 0px;
+}
+
+img {
+  display: block;
 }

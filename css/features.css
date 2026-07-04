@@ -35,16 +35,16 @@
 }
 
 .hero-container {
-  margin: auto;
+  margin: 0px;
 }
 
 .features-description {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   gap: 24px;
   padding: 0px 141px;
-  flex-basis: auto;
 }
 
 .sr-only {
@@ -58,4 +58,8 @@
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+
+.flex-basis {
+  max-width: 264px;
 }

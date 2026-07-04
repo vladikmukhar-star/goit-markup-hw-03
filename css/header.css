@@ -7,6 +7,7 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #2e2f42;
+  margin: auto;
 }
 
 .logo .accent {
@@ -40,6 +41,15 @@
   color: #404bbf;
 }
 
+.features {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
+}
 .team {
   font-family: Roboto;
   font-weight: 500;
@@ -67,24 +77,28 @@
   color: #404bbf;
 }
 
-.header-container {
-  border-bottom: 1px solid var(--cornflower);
+.container {
 }
-
-.header-link-group {
+.header {
+  border-bottom: 1px solid var(--cornflower);
+  width: 1440px;
+  height: 72px;
+}
+.container-links {
   display: flex;
   justify-content: space-around;
+  align-self: center;
   align-items: center;
 }
 
 .header-link {
   display: flex;
   gap: 40px;
-  align-items: center;
-  padding: 24px 0px;
 }
-
 .header-contact {
   display: flex;
+  height: 72px;
+  align-items: center;
   gap: 40px;
+  padding-left: 340px;
 }
