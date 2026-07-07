@@ -34,10 +34,6 @@
   letter-spacing: 0.02em;
 }
 
-.hero-container {
-  margin: 0px;
-}
-
 .features-description {
   display: flex;
   flex-wrap: wrap;
@@ -50,8 +46,26 @@
 
 .features-description .features-item {
   flex-basis: 264px;
-
   max-width: 264px;
+}
+
+.ilustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+
+  background: #f4f4fd;
+  background-image: url(/images/svg-sprite-illustration.svg#);
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 264px;
+  height: 112px;
 }
 
 .sr-only {

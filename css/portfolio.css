@@ -71,3 +71,27 @@ ul {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item:hover .overlay {
+  transform: translateY(0);
+}
+
+.overlay {
+  padding: 40px 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  display: flex;
+  justify-content: center;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  transition: transform 250ms ease-in-out;
+}
